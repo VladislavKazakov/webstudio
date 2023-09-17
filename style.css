@@ -1,3 +1,17 @@
+:root{
+    --header-web: #2196f3;
+    --nav-studio: #000000;
+    --nav: #212121;
+    --nav-number: #757575;
+    --main: #2f303a;
+    --main-title: #ffffff;
+    --li-color-text: #212121;
+    --li-color-text: #757575;
+    --footer-background: #2f303a;
+    --button: #f5f4fa
+
+}
+
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -7,7 +21,6 @@ h1,h2,h3,p{
     margin-top: 0;
 }
 
-
 ul{
     list-style: none;
     padding: 0;
@@ -16,7 +29,7 @@ ul{
 
 a{
     cursor: pointer;
-    text-decoration: none
+    text-decoration: none;
 }
 
 .logo{
@@ -27,8 +40,9 @@ a{
 }
 
 .black{
-    color: var(--nav-stydio);
+    color: var(--nav-studio);
 }
+
 
 .navigation{
     font-size: 14px;
