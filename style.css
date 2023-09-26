@@ -84,7 +84,7 @@ a{
     font-size: 16px;
 }
 
-.button-all{
+.filt-button{
     color: #FFF;
     background-color: #2196F3;
     width: 73px;
@@ -93,7 +93,7 @@ a{
     font-weight: 500;
 }
 
-.button-websites{
+.filt-button{
     color: #212121;
     background-color: #F5F4FA;
     width: 125px;
@@ -102,7 +102,7 @@ a{
     font-weight: 500;
 }
 
-.button-appendices{
+.filt-button{
     color: #212121;
     background-color: #F5F4FA;
     width: 112px;
@@ -111,7 +111,7 @@ a{
     font-weight: 500;
 }
 
-.button-design{
+.filt-button{
     color: #212121;
     background-color: #F5F4FA;
     width: 103px;
@@ -120,7 +120,7 @@ a{
     font-weight: 500;
 }
 
-.button-marketing{
+.filt-button{
     color: #212121;
     background-color: #F5F4FA;
     width: 130px;
