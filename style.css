@@ -8,30 +8,68 @@
     --li-color-text: #212121;
     --li-color-text: #757575;
     --footer-background: #2f303a;
-    --button: #f5f4fa
+    --button: #f5f4fa;
 
 }
 
 body{
     font-family: 'Roboto', sans-serif;
-    padding: 0 35px;
+    box-sizing: border-box;
 }
 
-h1,h2,h3,p{
-    margin-bottom: 0;
-    margin-top: 0;
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
-ul{
-    list-style: none;
-    padding: 0;
-    margin: 0;
+.header{
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 
-a{
-    cursor: pointer;
-    text-decoration: none;
+.section-details{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
+
+.activity{
+    padding-bottom: 94px;
+}
+
+.team{
+    padding-top: 94px;
+    padding-bottom: 94px;
+    background-color: var(--button);
+}
+
+.team-item{
+    background-color: var(--main-title);
+    width: 270px;
+}
+
+.footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: var(--footer-background);
+}
+
+.work-blok{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.post-taitel{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900px;
+    line-height: 136%;
+    text-transform: uppercase;
+    color: var(--main-title);
+    margin-bottom: 30px;
+}
+
+
 
 .logo{
     font-family: 'Raleway', sans-serif;
@@ -41,14 +79,28 @@ a{
 }
 
 .black{
-    color: var(--nav-studio);
+    color: var(--main-title);
 }
 
+.footer-city{
+    color: var(--main-title);
+
+}
+
+.footer-link{
+    color: rgba(255, 255, 255, 0.60);
+}
 
 .navigation{
     font-size: 14px;
     font-weight: 500;
 
+}
+
+.section-post{
+    background-color: var(--main);
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
 
 .site-nav-link{
@@ -64,12 +116,34 @@ a{
     font-weight: 500;
 }
 
-.button{
-    color: #FFF;
-    background: #2196F3;
-    width: 216px;
-    height: 50px;
+.post-button{
+    color: var(--main-title);
+    background: var(--header-web);
     font-size: 16px;
+    font-weight: 700;
+    padding: 10px 32px;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
+
+.post-wrap{
+    display: flex;
+    justify-content: center;
+}
+
+.details-title{
+    margin-bottom: 10px;
+}
+
+.fuoter-logo{
+    color: var(--header-web);
+}
+
+.sectio-title{
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 36px;
     font-weight: 700;
 }
 
@@ -77,6 +151,10 @@ a{
     color: #212121;
     font-size: 16px;
     font-weight: 500;
+}
+
+.team-img{
+    width: 270px;
 }
 
 .profession{
@@ -87,8 +165,6 @@ a{
 .filt-button{
     color: #FFF;
     background-color: #2196F3;
-    width: 73px;
-    height: 38px;
     font-size: 16px;
     font-weight: 500;
 }
@@ -96,35 +172,6 @@ a{
 .filt-button{
     color: #212121;
     background-color: #F5F4FA;
-    width: 125px;
-    height: 38px;
-    font-size: 16px;
-    font-weight: 500;
-}
-
-.filt-button{
-    color: #212121;
-    background-color: #F5F4FA;
-    width: 112px;
-    height: 38px;
-    font-size: 16px;
-    font-weight: 500;
-}
-
-.filt-button{
-    color: #212121;
-    background-color: #F5F4FA;
-    width: 103px;
-    height: 38px;
-    font-size: 16px;
-    font-weight: 500;
-}
-
-.filt-button{
-    color: #212121;
-    background-color: #F5F4FA;
-    width: 130px;
-    height: 38px;
     font-size: 16px;
     font-weight: 500;
 }
