@@ -226,7 +226,7 @@ body{
 }
 
 .name{
-    color: #212121;
+    color: var(--nav-studio);
     font-size: 16px;
     font-weight: 500;
 }
@@ -238,32 +238,42 @@ body{
 }
 
 .profession{
-    color: #757575;
+    color: var(--nav-number);
     font-size: 16px;
 }
 
 .filt-button{
-    color: #FFF;
-    background-color: #2196F3;
+    color: var(--nav-studio);
     font-size: 16px;
     font-weight: 500;
 }
 
-.filt-button{
-    color: #212121;
-    background-color: #F5F4FA;
-    font-size: 16px;
-    font-weight: 500;
+.site-div-link{
+    
+}
+
+.portpfilio-item{
+    
+}
+
+.portpfilio-img{
+    width: 370px;
+    height: 294px;
+    margin-bottom: 30px;
+}
+
+.portpfilio{
+    
 }
 
 .photo{
-    color: #212121;
+    color: var(--nav-studio);
     font-size: 18px;
     font-weight: 700;
 }
 
 .text-photo{
-    color: #757575;
+    color: var(--nav-number);
     font-size: 16px;
     font-weight: 400;
 }
