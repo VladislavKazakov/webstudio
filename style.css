@@ -58,7 +58,7 @@ body{
 }
 
 .team-list{
-    display: flex;
+    display: flex; 
     justify-content: space-between;
 }
 
@@ -249,11 +249,14 @@ body{
 }
 
 .site-div-link{
-    
+    display: flex;
+    justify-content: space-around;
 }
 
 .portpfilio-item{
-    
+    border: 1px solid var(--button);
+    background: var(--main-title);
+    margin-bottom: 30px;
 }
 
 .portpfilio-img{
@@ -263,7 +266,32 @@ body{
 }
 
 .portpfilio{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.portpfilio-list{
     
+}
+
+.portpfilio-text{
+    color: var(--nav-number);
+    font-size: 16px;
+    font-weight: 400;
+    margin: 4px 24px 20px 24px;
+}
+
+.portpfilio-title{
+    color: var(--nav-studio);
+    font-size: 18px;
+    font-weight: 700;
+    margin: 20px 24px 4px 24px;
+}
+
+.portpfilio-card{
+    width: 370px;
+    height: 404px; 
 }
 
 .photo{
@@ -276,6 +304,12 @@ body{
     color: var(--nav-number);
     font-size: 16px;
     font-weight: 400;
+}
+
+
+
+.footer-item{
+    margin: 9px;
 }
 
 .mail{
