@@ -246,11 +246,14 @@ body{
     color: var(--nav-studio);
     font-size: 16px;
     font-weight: 500;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 94px 513px 50px 512px;
 }
 
 .site-div-link{
-    display: flex;
-    justify-content: space-around;
+    width: 73px;
+    height: 38px;
 }
 
 .portpfilio-item{
