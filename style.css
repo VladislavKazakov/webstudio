@@ -55,6 +55,8 @@ body{
     background-color: var(--main-title);
     width: 270px;
     padding-bottom: 30px;
+    border-radius: 0px 0px 4px 4px;
+    background: var(--main-title);
 }
 
 .team-list{
@@ -100,6 +102,12 @@ body{
 .contactc{
     display: flex;
     
+}
+
+.contactc-item{
+    font-weight: 500;
+    font-size: 14px;
+
 }
 
 .email{
@@ -198,6 +206,7 @@ body{
     padding: 10px 32px;
     border: none;
     border-radius: 4px;
+    cursor: pointer;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
@@ -229,6 +238,7 @@ body{
     color: var(--nav-studio);
     font-size: 16px;
     font-weight: 500;
+    margin-bottom: 10px;
 }
 
 .team-img{
@@ -247,13 +257,18 @@ body{
     font-size: 16px;
     font-weight: 500;
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 94px 513px 50px 512px;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: ;
+}
+
+.filt{
+    padding: 6px 22px;
+
 }
 
 .site-div-link{
-    width: 73px;
-    height: 38px;
+
 }
 
 .portpfilio-item{
@@ -265,7 +280,6 @@ body{
 .portpfilio-img{
     width: 370px;
     height: 294px;
-    margin-bottom: 30px;
 }
 
 .portpfilio{
