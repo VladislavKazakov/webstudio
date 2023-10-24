@@ -29,6 +29,7 @@ body{
 
 .text-details{
     color: var(--nav-number);
+    font-size: 14px;
 }
 
 .header{
@@ -75,9 +76,8 @@ body{
     padding-bottom: 94px;
 }
 
-.contactc-link{
-    color: var(--nav-number);
-
+.contactc-link:hover{
+    color: var(--header-web);
 }
 
 .activity-list{
@@ -107,12 +107,10 @@ body{
 .contactc-item{
     font-weight: 500;
     font-size: 14px;
-
 }
 
 .email{
     margin-right: 50px;
-    font-weight: 900;
     color: var(--nav-number);
 }
 
@@ -129,6 +127,7 @@ body{
     line-height: 136%;
     text-transform: uppercase;
     color: var(--main-title);
+    margin-bottom: 30px;
 }
 
 .logo{
@@ -178,8 +177,9 @@ body{
     padding-bottom: 200px;
 }
 
-.site-nav-link{
+.site-nav-link:hover{
     color: var(--nav);
+    color: var(--header-web);
 }
 
 .contact-link{
@@ -217,6 +217,7 @@ body{
 
 .details-title{
     margin-bottom: 10px;
+    font-size: 14px;
 }
 
 .fuoter-logo{
@@ -254,21 +255,26 @@ body{
 
 .filt-button{
     color: var(--nav-studio);
-    font-size: 16px;
-    font-weight: 500;
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
     gap: 8px;
-    margin-bottom: ;
 }
 
 .filt{
+    background: var(--button);
+    font-weight: 500;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
     padding: 6px 22px;
-
+    line-height: 162%;
+    font-family: 'Roboto', sans-serif;
 }
 
 .site-div-link{
-
+    
 }
 
 .portpfilio-item{
