@@ -76,6 +76,10 @@ body{
     padding-bottom: 94px;
 }
 
+.contactc-link{
+    color: var(--nav);
+}
+
 .contactc-link:hover{
     color: var(--header-web);
 }
@@ -177,8 +181,11 @@ body{
     padding-bottom: 200px;
 }
 
-.site-nav-link:hover{
+.site-nav-link{
     color: var(--nav);
+}
+
+.site-nav-link:hover{
     color: var(--header-web);
 }
 
@@ -261,6 +268,12 @@ body{
     gap: 8px;
 }
 
+.filt:hover{
+    background-color: var(--header-web);
+    color: var(--main-title);
+}
+
+
 .filt{
     background: var(--button);
     font-weight: 500;
@@ -270,11 +283,12 @@ body{
     border: none;
     padding: 6px 22px;
     line-height: 162%;
+    cursor: pointer;
     font-family: 'Roboto', sans-serif;
 }
 
 .site-div-link{
-    
+
 }
 
 .portpfilio-item{
@@ -290,7 +304,7 @@ body{
 
 .portpfilio{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
