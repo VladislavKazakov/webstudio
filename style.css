@@ -58,6 +58,7 @@ body{
     padding-bottom: 30px;
     border-radius: 0px 0px 4px 4px;
     background: var(--main-title);
+    box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.20), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
 }
 
 .team-list{
@@ -105,22 +106,22 @@ body{
     height: 120px;
     background-color: var(--button);
     border-radius: 4px;
-    background-image: url(./img/antenna\ 1.png);
+    background-image: url(./img/antenna.webp);
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: center;   
 }
 
 .site-details-item:nth-child(2)::before{
-    background-image: url(./img/clock\ 1.png);
+    background-image: url(./img/clock.webp);
 }
 
 .site-details-item:nth-child(3)::before{
-    background-image: url(./img/diagram\ 1.png);
+    background-image: url(./img/diagram.webp);
 }
 
 .site-details-item:nth-child(4)::before{
-    background-image: url(./img/astronaut\ 1.png);
+    background-image: url(./img/astronaut.webp);
 }
 
 .site-details{
@@ -313,6 +314,11 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.filt:hover,
+.filt:focus{
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+
 .site-div-link{
 
 }
@@ -321,6 +327,11 @@ body{
     border: 1px solid var(--button);
     background: var(--main-title);
     margin-bottom: 30px;
+}
+
+.portpfilio-item:hover,
+.portpfilio-item:focus{
+    box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16), 0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }
 
 .portpfilio-img{
