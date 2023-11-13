@@ -205,6 +205,9 @@ body{
     background-color: var(--main);
     padding-top: 200px;
     padding-bottom: 200px;
+    background: url(./img/lydi.webp), lightgray 0px -147.517px / 100% 170.667% no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .site-nav-link{
@@ -246,6 +249,7 @@ body{
 .post-wrap{
     display: flex;
     justify-content: center;
+    
 }
 
 .details-title{
