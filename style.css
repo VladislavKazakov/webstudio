@@ -194,6 +194,9 @@ body{
 .footer-link{
     color: rgba(255, 255, 255, 0.60);
 }
+.footer-link:hover{
+    color: var(--header-web);
+}
 
 .navigation{
     font-size: 14px;
@@ -384,8 +387,6 @@ body{
     font-size: 16px;
     font-weight: 400;
 }
-
-
 
 .footer-item{
     margin: 9px;
