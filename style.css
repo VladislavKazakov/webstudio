@@ -459,10 +459,6 @@ body{
     margin-top: 50px;
 }
 
-.customers-list-item{
-
-}
-
 .customers-wrap{
     display: flex;
     align-items: center;
@@ -498,10 +494,13 @@ body{
     width: 44px;
     height: 44px;
     border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer-link:hover,
-.footer-lnk:focus{
+.footer-link:focus{
     fill: var(--main-title);
     background-color: var(--header-web);
 }
@@ -513,7 +512,8 @@ body{
 
 .footer-join{
     display: flex;
-    align-items: center;
-    justify-content: center;
+    justify-content: left;
     color: var(--button);
+    margin-bottom: 20px;
+    
 }
