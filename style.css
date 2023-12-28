@@ -508,6 +508,13 @@ body{
 .footer-social{
     margin-top: 72px;
     margin-left: 70px;
+    
+}
+
+.footer-wrapper{
+    display: flex;
+    margin: 0 auto;
+    align-items: baseline;
 }
 
 .footer-join{
@@ -515,5 +522,5 @@ body{
     justify-content: left;
     color: var(--button);
     margin-bottom: 20px;
-    
 }
+
