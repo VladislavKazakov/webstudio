@@ -644,20 +644,34 @@ body{
 }
 
 .modal-form-input{
-    width: 448px;
+    width: 410px;
     height: 40px;
     border-radius: 4px;
     border: 1px solid rgba(33, 33, 33, 0.20);
+    padding-left: 42px;
+}
+
+.modal-form-icon{
+    position: relative;
+    top: -30px;
+    left: 10px;
+    width: 18px;
+    height: 18px;
+}
+
+.modal-form-input:focus{
+    outline: none;
+    border-color: var(--header-web);
+}
+
+.modal-form-input:hover,
+.modal-form-icon{
+    fill: var(--header-web);
 }
 
 .modal-form-input:hover{
     fill: var(--header-web);
     border: 1px solid var(--header-web);
-}
-
-.modal-form-icon{
-    width: 18px;
-    height: 18px;
 }
 
 .modal-form-field{
@@ -669,6 +683,7 @@ body{
 .modal-field:hover{
     fill: var(--header-web);
     border: 1px solid var(--header-web);
+    border-radius: 3px;
 }
 
 .form-field{
@@ -692,6 +707,7 @@ body{
     margin-bottom: 30px;
     cursor: pointer;
     margin-top: 20px;
+    margin-left: 3.7px;
 }
 
 
@@ -699,8 +715,10 @@ body{
     width: 200px;
     height: 50px;
     border-radius: 4px;
+    border: var(--header-web);
     background: var(--header-web);
     font-family: 'Roboto', sans-serif;
     color: var(--main-title);
     margin-left: 124px;
+    cursor: pointer;
 }
