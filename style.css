@@ -684,6 +684,7 @@ body{
     fill: var(--header-web);
     border: 1px solid var(--header-web);
     border-radius: 3px;
+    resize: none;
 }
 
 .form-field{
