@@ -252,12 +252,19 @@ body{
 
 .site-nav-link{
     color: var(--nav);
+    
 }
 
 .site-nav-link:hover{
     color: var(--header-web);
 }
 
+/* .site-nav::after {
+    width: 78px;
+    height: 4px;
+    border-radius: 2px;
+    color: var(--header-web);
+} */
 
 .contact{
     font-size: 14px;
@@ -387,11 +394,26 @@ body{
     flex-wrap: wrap;
 }
 
+/* .portpfilo-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform: translateY(100%);
+    transition: transform 500ms ease;
+}
+
+.portpfilio-:hover .portpfilo-overlay{
+    background-color: rgba(33, 150, 243, 0.90);;
+    transform: translateY(0%);
+} */
+
 .portpfilio-text{
     color: var(--nav-number);
     font-size: 16px;
     font-weight: 400;
-    margin: 4px 24px 20px 24px;
+    margin: 4px 24px 20px 24px; 
 }
 
 .portpfilio-title{
