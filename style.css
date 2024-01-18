@@ -10,6 +10,7 @@
     --footer-background: #2f303a;
     --button: #f5f4fa;
     --icon-color: #AFB1B8;
+    --rgba: rgba(33, 150, 243, 0.90);
 }
 
 body{
@@ -251,20 +252,25 @@ body{
 }
 
 .site-nav-link{
+    position: relative;
     color: var(--nav);
-    
+}
+
+.site-nav-link.current::after{
+    content: '';
+    display: block;
+    background-color: var(--header-web);
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    border-radius: 4px;
+    left: 0;
+    bottom: -33px;
 }
 
 .site-nav-link:hover{
     color: var(--header-web);
 }
-
-/* .site-nav::after {
-    width: 78px;
-    height: 4px;
-    border-radius: 2px;
-    color: var(--header-web);
-} */
 
 .contact{
     font-size: 14px;
@@ -376,6 +382,7 @@ body{
     border: 1px solid var(--button);
     background: var(--main-title);
     margin-bottom: 30px;
+    width: 370px;
 }
 
 .portpfilio-item:hover,
@@ -394,20 +401,29 @@ body{
     flex-wrap: wrap;
 }
 
-/* .portpfilo-overlay{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    transform: translateY(100%);
-    transition: transform 500ms ease;
+.product-trumb{
+    position: relative;
+    overflow: hidden;
 }
 
-.portpfilio-:hover .portpfilo-overlay{
-    background-color: rgba(33, 150, 243, 0.90);;
-    transform: translateY(0%);
-} */
+.product-action{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 18px;
+    background-color: var(--rgba);
+    opacity: 0;
+    letter-spacing: 0.03em;
+    line-height: 1.6;
+    color: var(--main-title);
+    width: 100%;
+    height: 100%;
+    padding: 63px 24px;
+}
+
+.portpfilio-item:hover .product-action{
+    opacity: 1;
+}
 
 .portpfilio-text{
     color: var(--nav-number);
