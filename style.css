@@ -101,6 +101,8 @@ body{
 
 .contactc-link{
     color: var(--nav);
+    transition-property: color;
+    transition-duration: 250ms;
 }
 
 .contactc-link:hover{
@@ -165,6 +167,8 @@ body{
 
 .contact-icon{
     margin-right: 10px;
+    transition-property: fill;
+    transition-duration: 250ms;
 }
 
 .contactc-link{
@@ -231,6 +235,8 @@ body{
 
 .footer-tel{
     color: rgba(255, 255, 255, 0.60);
+    transition-property: color;
+    transition-duration: 250ms;
 }
 .footer-tel:hover{
     color: var(--header-web);
@@ -254,6 +260,8 @@ body{
 .site-nav-link{
     position: relative;
     color: var(--nav);
+    transition-property: color;
+    transition-duration: 250ms;
 }
 
 .site-nav-link.current::after{
@@ -262,10 +270,10 @@ body{
     background-color: var(--header-web);
     position: absolute;
     width: 100%;
-    height: 2px;
-    border-radius: 4px;
+    height: 4px;
+    border-radius: 2px;
     left: 0;
-    bottom: -33px;
+    bottom: -32px;
 }
 
 .site-nav-link:hover{
@@ -294,11 +302,6 @@ body{
     border-radius: 4px;
     cursor: pointer;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-}
-
-.post-button:hover{
-    color: var(--main-title);
-    background-color: #1287e7;
 }
 
 .post-wrap{
@@ -371,6 +374,8 @@ body{
     line-height: 162%;
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
+    transition-property: background-color;
+    transition-duration: 250ms;
 }
 
 .filt:hover,
@@ -419,10 +424,13 @@ body{
     width: 100%;
     height: 100%;
     padding: 63px 24px;
+    transform: translateY(100%);
+    transition: transform 250ms ease;
 }
 
 .portpfilio-item:hover .product-action{
     opacity: 1;
+    transform: translate(0);
 }
 
 .portpfilio-text{
@@ -493,6 +501,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    transition-property: background-color;
+    transition-duration: 250ms;
 }
 
 .social-link:hover,
@@ -522,6 +532,8 @@ body{
     border-radius: 4px;
     border: 1px solid #AFB1B8;
     padding: 16px 32px;
+    transition-property: fill, border;
+    transition-duration: 250ms;
 }
 
 .customers-icon:hover{
@@ -550,6 +562,8 @@ body{
     align-items: center;
     background-color: rgba(255, 255, 255, 0.10);
     margin-right: 10px;
+    transition-property: background-color;
+    transition-duration: 250ms;
 }
 
 .footer-link:hover,
